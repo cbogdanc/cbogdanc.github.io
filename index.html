@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;"> calculator</h1>
+<br><br>
+
+
+
+<br>
+<h3>Calculate </h3>
+
+<p>Please enter trial size (20 or 50):<br>
+<input id="trialSize" value=20> 
+</p>
+
+<p>Please enter Y observed (between 0 and 100%):<br>
+<input id="yObserved">
+</p>
+
+<button type="button" onclick="calculate_graph()">Calculate and make graph</button>
+
+
+<style> 
+.inline {display: inline;}
+</style>
+
+<br><br>
+<p class = "inline">Predicted value, lower limit, higher limit (%): &nbsp; </p> 
+<p class = "inline" id="results"></p>
+
+
+<br><br><br>
+<h3>Chart</h3>
+
+
+<canvas id="myChart" width="500" height="600" style="border:1px solid" ></canvas>
+<!-- <canvas style="width: 200px; height: 200px"></canvas> -->
+
+
+<br><br><br><br><br><br>
+
+<!--<b>Disclaimer:</b>
+<span style="font-weight:900">Disclaimer:</span> -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+
+
+</body>
+</html> 
