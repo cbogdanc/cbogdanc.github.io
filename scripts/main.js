@@ -2,11 +2,11 @@
 
 // coefficients for quadratic equations, a1, b1, c1 for trial size 50, and a2, b2, c2 for trial size 20
 var a1 = [0.0061762, 0.00618, 0.00606]; // coefficients for predicted value, lower limit and higher limit equations
-var b1 = [0.4328013, 0.43256, 0.44476];
-var c1 = [2.3449784, 11.02663, -6.4391];
+var b1 = [0.5328013, 0.53256, 0.54476];
+var c1 = [3.3449784, 12.02663, -5.4391];
 var a2 = [0.0040699, 0.00412, 0.00402];
-var b2 = [0.6478610, 0.64151, 0.65422];
-var c2 = [-0.6395179, 7.96482, -9.24386];
+var b2 = [0.7478610, 0.74151, 0.75422];
+var c2 = [-0.6395179, 8.96482, -8.24386];
 //var trialSz = Number(document.getElementById("trialSize").value);
 
 function calculate_graph() {
